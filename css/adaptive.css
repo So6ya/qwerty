@@ -628,7 +628,7 @@
     color: #22253B;
   }
   .second-section .technology .banner__enumeration .list-of-skills__element:hover {
-  box-shadow: #858585 0 3px 2px;
+  box-shadow: none;
   }
 }
 @media screen and (max-width: 576px) {
