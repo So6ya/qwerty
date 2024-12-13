@@ -96,6 +96,9 @@ body {
     .reason {
         font-size: 22px;
     }
+    .header__return:hover {
+    box-shadow: none;
+  }
 }
 
 @media screen and (max-width: 576px) {
