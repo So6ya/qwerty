@@ -246,7 +246,7 @@
     margin: auto;
     margin-bottom: 20px;
   }
-  .how-the-training-takes-place .video img[src="images/video.svg"] {
+  .how-the-training-takes-place .video img[src="images/video.png"] {
     width: 700px;
   }
   .how-the-training-takes-place .pause {
@@ -365,7 +365,7 @@
     gap: 20px;
     padding: 20px 20px;
   }
-  .tuition-fees .mandatory-learning img[src="images/mandatorylearning.svg"] {
+  .tuition-fees .mandatory-learning img[src="images/mandatorylearning.png"] {
     margin-right: 0px;
   }
   .tuition-fees .mandatory-learning p {
@@ -475,7 +475,7 @@
   .how-the-training-takes-place .video {
     width: 100%;
   }
-  .how-the-training-takes-place .video img[src="images/video.svg"] {
+  .how-the-training-takes-place .video img[src="images/video.png"] {
     width: 100%;
   }
   .how-the-training-takes-place .pause {
@@ -553,7 +553,7 @@
     gap: 5px;
     align-items: center;
   }
-  .tuition-fees .mandatory-learning img[src="images/mandatorylearning.svg"] {
+  .tuition-fees .mandatory-learning img[src="images/mandatorylearning.png"] {
     width: 50px;
   }
   .tuition-fees .mandatory-learning p {
