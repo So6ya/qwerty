@@ -1,0 +1,825 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+  .header__logo {
+    width: 53px;
+    margin-right: 60px;
+  }
+  .header__nav {
+    margin-right: 80px;
+  }
+  .beginning {
+    grid-template-columns: 500px 350px;
+    column-gap: 50px;
+  }
+  .beginning .left-beginning {
+    margin-top: 10px;
+  }
+  .beginning .left-beginning .slogan {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .beginning .computer {
+    width: 100%;
+  }
+  .second-section .technology .banner {
+    padding: 30px 50px;
+    gap: 20px;
+  }
+  .second-section .technology .banner__img {
+    width: 300px;
+  }
+  .second-section .technology .banner .minimum-required {
+    font-size: 16px;
+    width: 350px;
+    line-height: 14px;
+  }
+  .how-the-training-takes-place {
+    padding: 50px 0 50px;
+  }
+  .how-the-training-takes-place img[src="images/shade.svg"] {
+    position: absolute;
+    width: 900px;
+  }
+  .how-the-training-takes-place .description-of-training {
+    padding: 28px 50px 51px 50px;
+  }
+  .how-the-training-takes-place .description-of-training .item {
+    margin-right: 10px;
+    width: 250px;
+  }
+  .how-the-training-takes-place .description-of-training .item__header {
+    font-size: 21px;
+    line-height: 25px;
+    width: 90%;
+  }
+  .how-the-training-takes-place .description-of-training .item__text {
+    font-size: 14px;
+    width: 90%;
+  }
+  .how-the-training-takes-place .description-of-training .item__text br {
+    display: none;
+  }
+  .how-the-training-takes-place .description-of-training .item:nth-child(3) {
+    margin-right: 0;
+    width: 280px;
+  }
+  .fourth-section .support-methods {
+    grid-template-columns: 290px 290px 290px;
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+  .fourth-section .support-methods .help-and-support-img {
+    padding: 30px 0;
+  }
+  .fourth-section .support-methods .help-and-support-img img {
+    width: 80%;
+  }
+  .fourth-section .support-methods .help-and-support-text {
+    padding: 40px 50px 40px 50px;
+  }
+  .fourth-section .support-methods .help-and-support-text__paragraph:first-of-type {
+    width: 100%;
+  }
+  .fourth-section .support-methods .teaching-methods-text {
+    padding: 40px 50px 40px 50px;
+  }
+  .fourth-section .support-methods .teaching-methods-img {
+    padding: 16px 0;
+  }
+  .fourth-section .support-methods .teaching-methods-img img {
+    width: 80%;
+  }
+  .tuition-fees {
+    padding: 50px 0 0;
+    margin-bottom: 63px;
+  }
+  .tuition-fees .cost-information {
+    gap: 15px;
+  }
+  .tuition-fees .cost-information__item {
+    display: flex;
+    align-items: center;
+  }
+  .tuition-fees .cost-information__item img {
+    margin-right: 10px;
+  }
+  .tuition-fees .cost-information__item p {
+    line-height: 18px;
+    font-size: 14px;
+  }
+  .tuition-fees .cost-information__item:nth-child(1) {
+    width: 315px;
+  }
+  .tuition-fees .cost-information__item:nth-child(2) {
+    width: 240px;
+  }
+  .tuition-fees .cost-information__item:nth-child(3) {
+    width: 315px;
+  }
+  .tuition-fees .table .tr {
+    grid-template-columns: 390px 181px 250px;
+  }
+  .footer {
+    grid-template-columns: 400px 300px 200px;
+  }
+  .bottom__all-rights-reserved {
+    margin-right: 180px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .bottom__user-agreement {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .bottom__privacy-policy {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+  .header__logo {
+    width: 53px;
+    margin-right: 60px;
+  }
+  .header__nav {
+    margin-right: 80px;
+  }
+  .header__nav .nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    gap: 10px;
+  }
+  .beginning {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+  .beginning .left-beginning {
+    margin-top: 0;
+  }
+  .beginning .left-beginning .slogan {
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .beginning .left-beginning .line {
+    width: 100%;
+  }
+  .beginning .left-beginning .test {
+    width: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .beginning .left-beginning .pass-the-tests {
+    margin: auto;
+  }
+  .beginning .computer {
+    margin: auto;
+    width: 50%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .second-section .technology .banner {
+    padding: 30px 30px;
+    gap: 20px;
+  }
+  .second-section .technology .banner__enumeration {
+    padding-top: 0px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills {
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills__element {
+    padding: 8px 0;
+    font-size: 15px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills__element:first-child {
+    width: 281px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills__element:nth-child(2) {
+    width: 59px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills__element:nth-child(3) {
+    width: 121.17px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills__element:nth-child(4) {
+    width: 237.48px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills__element:nth-child(5) {
+    width: 228px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills__element:nth-child(6) {
+    width: 65px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills__element:nth-child(7) {
+    width: 53.83px;
+  }
+  .second-section .technology .banner__img {
+    width: 250px;
+  }
+  .second-section .technology .banner .minimum-required {
+    font-size: 13px;
+    width: 310px;
+    line-height: 14px;
+  }
+  .how-the-training-takes-place {
+    padding: 50px 0 50px;
+  }
+  .how-the-training-takes-place img[src="images/shade.svg"] {
+    position: absolute;
+    width: 700px;
+    top: 200px;
+  }
+  .how-the-training-takes-place .heading {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 27px;
+  }
+  .how-the-training-takes-place .video {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .how-the-training-takes-place .video img[src="images/video.svg"] {
+    width: 700px;
+  }
+  .how-the-training-takes-place .pause {
+    top: 118px;
+    left: 258px;
+  }
+  .how-the-training-takes-place .description-of-training {
+    background-color: white;
+    border-radius: 40px;
+    padding: 28px 58px 41px 53px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .how-the-training-takes-place .description-of-training .item {
+    width: auto;
+    margin: none;
+    padding-bottom: 10px;
+  }
+  .how-the-training-takes-place .description-of-training .item br {
+    display: none;
+  }
+  .how-the-training-takes-place .description-of-training .item__header {
+    width: auto;
+  }
+  .how-the-training-takes-place .description-of-training .item__text {
+    width: auto;
+  }
+  .how-the-training-takes-place .description-of-training .item:first-child {
+    border-bottom: 1px solid #EAF2F5;
+    border-right: none;
+    width: auto;
+    margin-right: 0;
+  }
+  .how-the-training-takes-place .description-of-training .item:nth-child(2) {
+    border-bottom: 1px solid #EAF2F5;
+    border-right: none;
+    width: auto;
+    margin-right: 0;
+  }
+  .how-the-training-takes-place .description-of-training .item:nth-child(3) {
+    width: auto;
+  }
+  .fourth-section .support-methods {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .fourth-section .support-methods .help-and-support-img {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .fourth-section .support-methods .help-and-support-text {
+    padding: 52px 81px 51px 100px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .fourth-section .support-methods .help-and-support-text__heading {
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+  .fourth-section .support-methods .help-and-support-text__paragraph {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .fourth-section .support-methods .help-and-support-text__paragraph:first-of-type {
+    width: auto;
+  }
+  .fourth-section .support-methods .teaching-methods-text {
+    padding: 55px 128px 55px 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-column-end: 4;
+  }
+  .fourth-section .support-methods .teaching-methods-text__heading {
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+  .fourth-section .support-methods .teaching-methods-text__paragraph {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .fourth-section .support-methods .teaching-methods-img {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0 15px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .tuition-fees .table .tr {
+    grid-template-columns: 300px 150px 150px;
+  }
+  .tuition-fees .table .thead {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .tuition-fees .table .tbody {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .tuition-fees .table .tfoot {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .tuition-fees .mandatory-learning {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+  }
+  .tuition-fees .mandatory-learning img[src="images/mandatorylearning.svg"] {
+    margin-right: 0px;
+  }
+  .tuition-fees .mandatory-learning p {
+    width: 430px;
+    margin-right: 0;
+  }
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer .school-name {
+    gap: 10px;
+  }
+  .footer .school-name__name {
+    line-height: 16px;
+    font-size: 14px;
+  }
+  .footer .buttons {
+    gap: 10px;
+  }
+  .bottom__all-rights-reserved {
+    margin-right: 50px;
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .bottom__user-agreement {
+    margin-right: 50px;
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .bottom__privacy-policy {
+    font-size: 13px;
+    line-height: 13px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+  .header {
+    justify-content: space-between;
+    padding-right: 15px;
+  }
+  .header__logo {
+    margin-right: 0;
+  }
+  .header__nav {
+    display: none;
+  }
+  .beginning .left-beginning .slogan {
+    font-size: 24px;
+    width: 450px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .beginning .left-beginning .pass-the-tests {
+    padding: 20px 30px;
+    font-size: 14px;
+  }
+  .beginning .left-beginning .pass-the-tests img {
+    width: 10px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .second-section .technology {
+    padding: 40px 0;
+  }
+  .second-section .technology .heading:nth-of-type(2) {
+    width: 470px;
+  }
+  .second-section .technology .banner {
+    padding-bottom: 40px;
+    display: block;
+    margin-bottom: 40px;
+  }
+  .second-section .technology .banner__img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills {
+    justify-content: center;
+    gap: 10px;
+  }
+  .second-section .technology .banner .minimum-required {
+    width: auto;
+    text-align: center;
+  }
+  .second-section .technology .pros-of-training .advantage {
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 45px;
+  }
+  .how-the-training-takes-place img[src="images/shade.svg"] {
+    width: 500px;
+    top: 250px;
+  }
+  .how-the-training-takes-place .heading {
+    width: 450px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .how-the-training-takes-place .text-before-the-video {
+    width: 450px;
+  }
+  .how-the-training-takes-place .video {
+    width: 100%;
+  }
+  .how-the-training-takes-place .video img[src="images/video.svg"] {
+    width: 100%;
+  }
+  .how-the-training-takes-place .pause {
+    top: 70px;
+    left: 165px;
+  }
+  .how-the-training-takes-place .pause__icon {
+    width: 110px;
+  }
+  .how-the-training-takes-place .training-offer {
+    width: 100%;
+  }
+  .how-the-training-takes-place .training-offer .start-learning {
+    padding: 20px 25px;
+  }
+  .how-the-training-takes-place .training-offer p {
+    font-size: 14px;
+    line-height: 14px;
+    width: auto;
+  }
+  .fourth-section .support-methods {
+    padding: 50px 0;
+  }
+  .fourth-section .support-methods__block {
+    padding: 20px 20px;
+  }
+  .fourth-section .support-methods .help-and-support-img {
+    padding: 20px 0;
+  }
+  .fourth-section .support-methods .teaching-methods-img {
+    padding: 20px 0;
+  }
+  .fourth-section .support-methods .help-and-support-text {
+    padding: 30px 40px;
+  }
+  .fourth-section .support-methods .help-and-support-text__heading {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .fourth-section .support-methods .help-and-support-text__paragraph {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  .fourth-section .support-methods .teaching-methods-text {
+    padding: 30px 40px;
+  }
+  .fourth-section .support-methods .teaching-methods-text__heading {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .fourth-section .support-methods .teaching-methods-text__paragraph {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  .tuition-fees .cost-information {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .tuition-fees .cost-information__item:nth-child(1) {
+    width: auto;
+  }
+  .tuition-fees .cost-information__item:nth-child(2) {
+    width: auto;
+  }
+  .tuition-fees .cost-information__item:nth-child(3) {
+    width: auto;
+  }
+  .tuition-fees .table .tr {
+    grid-template-columns: 170px 120px 1fr;
+    padding-left: 5px;
+    gap: 5px;
+    align-items: center;
+  }
+  .tuition-fees .mandatory-learning img[src="images/mandatorylearning.svg"] {
+    width: 50px;
+  }
+  .tuition-fees .mandatory-learning p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .tuition-fees .mandatory-learning .start-learning {
+    padding: 20px 30px;
+    width: auto;
+    gap: 9px;
+  }
+  .tuition-fees .mandatory-learning .start-learning span {
+    font-size: 14px;
+  }
+  .footer {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+  .footer .nav {
+    gap: 10px;
+    font-size: 13px;
+  }
+  .footer .info__tel {
+    font-size: 11px;
+  }
+  .footer .info__mail {
+    font-size: 11px;
+  }
+  .footer .info__text {
+    font-size: 11px;
+  }
+  .menu-toggle {
+    display: block;
+    padding-top: 5px;
+  }
+  .header__nav-menu {
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+  }
+  .header__nav-menu .nav__link {
+    margin-bottom: 20px;
+  }
+  .header__nav-menu .account__registration {
+    margin-bottom: 20px;
+  }
+  .header__nav-menu .account__entrance {
+    width: 100%;
+  }
+  .header {
+    z-index: 1;
+    position: relative;
+    align-items: flex-start;
+  }
+  .header .header__account {
+    display: none;
+  }
+  .pass-the-tests:hover,
+  .start-learning:hover {
+  box-shadow: none;
+  }
+  .header__nav .nav__link:hover a {
+    color: #22253B;
+  }
+  .header .account__entrance:hover {
+    box-shadow: none;
+  }
+  .second-section .technology .pros-of-training .advantage:hover {
+    box-shadow:none;
+  }
+  .footer .nav__link:hover a {
+    color: #22253B;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 300px;
+  }
+  .beginning .left-beginning .slogan {
+    font-size: 16px;
+    line-height: 18px;
+    width: auto;
+  }
+  .beginning .left-beginning .test {
+    font-size: 14px;
+  }
+  .beginning .computer {
+    margin-bottom: 20px;
+  }
+  .heading {
+    font-size: 20px;
+    width: auto;
+    line-height: 24px;
+  }
+  .second-section {
+    border-radius: 0 0 50px 50px;
+  }
+  .second-section .technology {
+    padding-bottom: 15px;
+  }
+  .second-section .technology .heading {
+    margin-bottom: 20px;
+  }
+  .second-section .technology .heading:nth-of-type(2) {
+    width: auto;
+  }
+  .second-section .technology .banner {
+    margin-bottom: 25px;
+  }
+  .second-section .technology .banner__enumeration .list-of-skills__element {
+    font-size: 13px;
+  }
+  .how-the-training-takes-place {
+    padding: 20px 0;
+  }
+  .how-the-training-takes-place img[src="images/shade.svg"] {
+    width: 300px;
+    top: 200px;
+  }
+  .how-the-training-takes-place .heading {
+    width: 280px;
+  }
+  .how-the-training-takes-place .text-before-the-video {
+    font-size: 13px;
+    width: auto;
+  }
+  .how-the-training-takes-place .pause {
+    top: 40px;
+    left: 95px;
+  }
+  .how-the-training-takes-place .pause__icon {
+    width: 70px;
+  }
+  .how-the-training-takes-place .pause__watch {
+    font-size: 13px;
+  }
+  .how-the-training-takes-place .description-of-training .item__number {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .how-the-training-takes-place .description-of-training .item__header {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .how-the-training-takes-place .description-of-training .item:first-child {
+    margin-bottom: 15px;
+  }
+  .how-the-training-takes-place .description-of-training .item:nth-child(2) {
+    margin-bottom: 15px;
+  }
+  .how-the-training-takes-place .training-offer {
+    padding: 20px 0;
+    border-radius: 50px;
+    flex-direction: column;
+  }
+  .how-the-training-takes-place .training-offer p {
+    width: 80%;
+    margin: auto;
+    font-size: 13px;
+    text-align: center;
+  }
+  .how-the-training-takes-place .training-offer .start-learning {
+    width: 80%;
+  }
+  .fourth-section {
+    border-radius: 50px;
+  }
+  .fourth-section .support-methods {
+    padding: 30px 0;
+    grid-template-columns: 1fr;
+  }
+  .fourth-section .support-methods__block {
+    border-radius: 30px;
+  }
+  .fourth-section .support-methods .help-and-support-img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .fourth-section .support-methods .help-and-support-text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .fourth-section .support-methods .help-and-support-text__heading {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .fourth-section .support-methods .teaching-methods-img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .fourth-section .support-methods .teaching-methods-text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .fourth-section .support-methods .teaching-methods-text__heading {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .tuition-fees .table .tr {
+    grid-template-columns: 105px 100px;
+  }
+  .tuition-fees .table .tr .td:last-child {
+    display: none;
+  }
+  .tuition-fees .table .tr .td:nth-child(2) {
+    justify-self: end;
+  }
+  .tuition-fees .table .thead {
+    font-size: 13px;
+  }
+  .tuition-fees .table .thead .tr .th:last-child {
+    display: none;
+  }
+  .tuition-fees .table .tbody {
+    font-size: 13px;
+  }
+  .tuition-fees .note {
+    font-size: 13px;
+    padding-left: 33px;
+  }
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  .footer .school-name {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .footer .buttons {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .footer .nav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .footer .info {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .bottom__all-rights-reserved {
+    margin-right: 0;
+  }
+  .bottom__user-agreement {
+    margin-right: 0;
+  }
+}

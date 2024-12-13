@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    background-color: #F9F8FD;
+    background-image: url(../images/bgerror.svg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    padding-top: 12px;
+    color: #22253B;
+  }
+  body a {
+    color: black;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1160px;
+    margin: auto;
+  }
+.header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 27px 10px 13px;
+    border-radius: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__return {
+    padding: 9px 20px 9px 17px;
+    background-color: #38BFF2;
+    border-radius: 34px;
+    border: none;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    gap: 4.74px;
+    align-items: center;
+    justify-content: space-between;
+  } 
+  .header__return:hover {
+    box-shadow: rgb(133, 133, 133) 0 3px 2px;
+  }
+  .section {
+    padding: 105px 0 0 0;
+  }
+  .error {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 9px;
+  }
+  .number {
+    font-size: 128px;
+    color: #F15525;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .reason {
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+  }
+
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+      }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+      max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      max-width: 500px;
+    }
+    .error {
+        font-size: 34px;
+    }
+    .reason {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 300px;
+    }
+    .number {
+        font-size: 64px;
+    }
+}
