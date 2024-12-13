@@ -261,22 +261,22 @@ body a {
   margin-bottom: 19px;
   margin-top: 0;
 }
-.second-section .technology .pros-of-training .advantage__img[src="images/icon2.svg"] {
+.second-section .technology .pros-of-training .advantage__img[src="images/icon2.png"] {
   margin-bottom: 17px;
 }
-.second-section .technology .pros-of-training .advantage__img[src="images/icon3.svg"] {
+.second-section .technology .pros-of-training .advantage__img[src="images/icon3.png"] {
   margin-bottom: 15.74px;
 }
-.second-section .technology .pros-of-training .advantage__img[src="images/icon4.svg"] {
+.second-section .technology .pros-of-training .advantage__img[src="images/icon4.png"] {
   margin-bottom: 9px;
 }
-.second-section .technology .pros-of-training .advantage__img[src="images/icon5.svg"] {
+.second-section .technology .pros-of-training .advantage__img[src="images/icon5.png"] {
   margin-bottom: 24px;
 }
-.second-section .technology .pros-of-training .advantage__img[src="images/icon6.svg"] {
+.second-section .technology .pros-of-training .advantage__img[src="images/icon6.png"] {
   margin-bottom: 22px;
 }
-.second-section .technology .pros-of-training .advantage__img[src="images/icon7.svg"] {
+.second-section .technology .pros-of-training .advantage__img[src="images/icon7.png"] {
   margin-bottom: 21px;
 }
 .second-section .technology .pros-of-training .advantage__heading {
@@ -487,13 +487,13 @@ body a {
   display: flex;
   align-items: center;
 }
-.tuition-fees .cost-information__item img[src="images/costicon1.svg"] {
+.tuition-fees .cost-information__item img[src="images/costicon1.png"] {
   margin-right: 29px;
 }
-.tuition-fees .cost-information__item img[src="images/costicon2.svg"] {
+.tuition-fees .cost-information__item img[src="images/costicon2.png"] {
   margin-right: 30px;
 }
-.tuition-fees .cost-information__item img[src="images/costicon3.svg"] {
+.tuition-fees .cost-information__item img[src="images/costicon3.png"] {
   margin-right: 36.31px;
 }
 .tuition-fees .cost-information__item p {
@@ -568,7 +568,7 @@ body a {
   display: flex;
   align-items: center;
 }
-.tuition-fees .mandatory-learning img[src="images/mandatorylearning.svg"] {
+.tuition-fees .mandatory-learning img[src="images/mandatorylearning.png"] {
   margin-right: 30px;
 }
 .tuition-fees .mandatory-learning p {
