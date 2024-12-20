@@ -157,6 +157,11 @@ body a {
   background-position: center bottom;
   height: 60px;
 }
+.down-slice a {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
 .down-slice .down-button {
   background-color: white;
   height: 37px;
