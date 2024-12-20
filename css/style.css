@@ -152,7 +152,6 @@ body a {
   text-align: center;
 }
 .down-slice {
-  background-color: white;
   background-image: url(../images/slice.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
